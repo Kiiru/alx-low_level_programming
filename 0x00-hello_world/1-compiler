@@ -1,6 +1,3 @@
-#! /usr/bin/bash
-
-CFILE=main.c
-
+#!/bin/bash
 gcc $CFILE -o main.o -c
 
