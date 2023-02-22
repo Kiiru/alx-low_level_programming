@@ -7,10 +7,10 @@
  */
 void print_alphabet_x10(void)
 {
-	int counter = 0;
+	int i;
 	char c = 'a';
 
-	while (counter < 10)
+	for (i = 0; i < 10; i++)
 	{
 		while (c <= 'z')
 		{
@@ -19,6 +19,5 @@ void print_alphabet_x10(void)
 		}
 
 		putchar('\n');
-		counter++;
 	}
 }
