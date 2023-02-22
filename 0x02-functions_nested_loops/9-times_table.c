@@ -6,8 +6,7 @@
  *
  * Returns: void
  */
-//void times_table(void)
-int main(void)
+void times_table(void)
 {
 	int i = 0, j;
 
@@ -20,7 +19,13 @@ int main(void)
 
 			if (t == 0 && j == 0)
 			{
-				printf("%d", t);
+				printf("%d,", t);
+				j++;
+				continue;
+			}
+			if (t == 0 && i == 0)
+			{
+				(j == 9) ? printf("  %d", t) : printf("  %d,", t);
 				j++;
 				continue;
 			}
@@ -29,7 +34,7 @@ int main(void)
 			else
 				printf(" ");
 
-			printf(",%d", t);
+			(j == 9) ? printf("%d", t) : printf("%d,", t);
 			j++;
 		}
 		printf("\n");
