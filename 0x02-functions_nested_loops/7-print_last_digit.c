@@ -8,7 +8,7 @@
  */
 int print_last_digit(int n)
 {
-	int remainder = (n >= 0) ? n % 10 : ((n * -1) % 10);
+	int remainder = (n >= 0) ? n % 10 : ((n % 10) * -1);
 
 	_putchar(remainder + '0');
 
