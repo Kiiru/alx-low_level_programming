@@ -20,13 +20,13 @@ void jack_bauer(void)
 		{
 			if (h < 10)
 			{
-				putchar('0');
+				putchar('\0');
 			}
 			putchar(h);
 			putchar(':');
 			if (m < 10)
 			{
-				putchar('0');
+				putchar('\0');
 			}
 			putchar(m);
 			putchar('\n');
