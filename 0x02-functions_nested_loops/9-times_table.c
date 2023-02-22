@@ -27,7 +27,6 @@ void times_table(void)
 			else
 				printf(" ");
 
-			if(
 			printf(",%d", t);
 			j++;
 		}
