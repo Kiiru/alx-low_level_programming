@@ -16,20 +16,20 @@ void jack_bauer(void)
 	{
 		int m = 0;
 
-		if (h < 10)
-		{
-			_putchar('0');
-		}
-		_putchar('h');
 		while (m < 60)
 		{
-			_putchar(':');
+			if (h < 10)
+			{
+				putchar('0');
+			}
+			putchar(h)
+			putchar(':');
 			if (m < 10)
 			{
-				_putchar('0');
+				putchar('0');
 			}
-			_putchar(m);
-			_putchar('\n');
+			putchar(m);
+			putchar('\n');
 			m++;
 
 		}
