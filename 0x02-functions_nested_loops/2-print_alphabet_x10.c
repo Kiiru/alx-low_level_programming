@@ -1,11 +1,10 @@
 #include <stdio.h>
 
 /**
- * print_alphabet_10 - procedure to print alphabet 10 times
+ * print_alphabet_x10 - procedure to print alphabet 10 times
  *
  * Return: Always void
  */
-
 void print_alphabet_x10(void)
 {
 	int counter = 0;
@@ -20,6 +19,6 @@ void print_alphabet_x10(void)
 		}
 
 		putchar('\n');
-
+		counter++;
 	}
 }
