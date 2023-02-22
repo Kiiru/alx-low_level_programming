@@ -6,7 +6,7 @@
  * Return: Always void
  */
 
-void print_alphabet_10(void)
+void print_alphabet_x10(void)
 {
 	int counter = 0;
 	char c = 'a';
