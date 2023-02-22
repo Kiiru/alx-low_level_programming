@@ -20,16 +20,16 @@ void jack_bauer(void)
 		{
 			if (h < 10)
 			{
-				putchar('\0');
+				printf("%d", 0);
 			}
-			putchar(h);
-			putchar(':');
+			printf("%d", h);
+			printf(":");
 			if (m < 10)
 			{
-				putchar('\0');
+				printf("%d", 0);
 			}
-			putchar(m);
-			putchar('\n');
+			printf("%d", m);
+			printf("\n");
 			m++;
 
 		}
