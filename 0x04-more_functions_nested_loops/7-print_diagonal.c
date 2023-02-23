@@ -11,17 +11,23 @@
  */
 void print_diagonal(int n)
 {
-	if (n <= 0)
-		_printchar('\n');
-	else if (n == 1)
-		_putchar('\\');
-	else
-	{
-		int i = 0;
+	int c, i;
 
-		while (i < (n - 1))
+	c = 0;
+
+	while (n > 0)
+	{
+		i = c;
+		while (i > 0)
+		{
 			_putchar(' ');
+			i--;
+		}
 		_putchar('\\');
 		_putchar('\n');
+		c++;
+		n--;
 	}
+	if (c < 1)
+		_putchar('\n');
 }
