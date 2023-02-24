@@ -2,10 +2,8 @@
 #include "main.h"
 
 /**
- * print_square - operation to print a square 
- *
+ * print_square - operation to print a square
  * @size: length of square
- *
  * Return - always returns void
  *
  */
@@ -23,6 +21,7 @@ void print_square(int size)
 			while (j < size)
 			{
 				_putchar('#');
+				j++;
 			}
 			_putchar('\n');
 		}
