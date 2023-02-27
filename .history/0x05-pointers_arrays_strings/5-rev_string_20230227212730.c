@@ -9,9 +9,8 @@
  */
 void rev_string(char *s)
 {
-	const int len = strlen(s);
-	int i;
-	char rs[len];
+	int len = strlen(s), i;
+	char rs[];
 
 	strcpy(rs, s);
 	s = &s[len - 1];

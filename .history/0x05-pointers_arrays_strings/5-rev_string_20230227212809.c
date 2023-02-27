@@ -10,7 +10,7 @@
 void rev_string(char *s)
 {
 	const int len = strlen(s);
-	int i;
+	int 
 	char rs[len];
 
 	strcpy(rs, s);
