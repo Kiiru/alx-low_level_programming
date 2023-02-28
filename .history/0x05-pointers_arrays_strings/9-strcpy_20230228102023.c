@@ -16,8 +16,9 @@ char *_strcpy(char *dest, char *src)
 	{
 		if (*src != '\0')
 		{
-			dest[i] = *src;
+			
 		}
+		dest[i] = *src;
 		src++;
 	}
 
