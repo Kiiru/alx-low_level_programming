@@ -10,18 +10,20 @@
 char *rot13(char *s)
 {
 	int i, k;
+	char base;
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
 		if (s[i] >= 'a' && s[i] <= 'z')
 		{
-			k = (((s[i] - 'a') + 13) % 26) + 'a';
+			k = (((s[i]-'a')+13)%26)+'a';
 			s[i] = k;
 		}
-		else if (s[i] >= 'A' && s[i] <= 'Z')
+		else if (s[i] >= 'a' && s[i] <= 'z')
 		{
-			k = (((s[i] - 'A') + 13) % 26) + 'A';
+			k = (((s[i]-'a')+13)%26)+'a';
 			s[i] = k;
+		}
 		}
 	}
 
