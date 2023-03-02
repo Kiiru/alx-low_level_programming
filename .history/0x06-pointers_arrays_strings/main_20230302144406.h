@@ -19,5 +19,3 @@ char *leet(char *);
 char *rot13(char *);
 
 void _putchar(char c);
-
-void print_number(int n);
