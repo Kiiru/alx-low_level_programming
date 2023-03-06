@@ -1,0 +1,10 @@
+#include <stdio.h>
+#include <string.h>
+
+/**
+ * _memset - operation to fill mem with 
+ * @s: pointer to string array
+ * Return: always encoded String
+ *
+*/
+char *_memset(char *s, char b, unsigned int n);
