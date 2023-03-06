@@ -5,7 +5,8 @@ int main(void)
 	int n;
 	int a[5];
 	int *p;
-  
+
+<<<<<<< HEAD
   a[2] = 1024;
   p = &n;
   /*
