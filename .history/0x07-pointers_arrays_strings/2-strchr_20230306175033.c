@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <string.h>
+
+/**
+ * _memcpy - operation to copy var1 to var2
+ * @dest: pointer to string array
+ * @src: char
+ * @n: int
+ * Return: always pointer to dest
+ *
+*/
