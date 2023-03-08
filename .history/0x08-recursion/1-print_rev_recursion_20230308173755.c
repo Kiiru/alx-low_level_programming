@@ -10,9 +10,22 @@
 */
 void _print_rev_recursion(char *s)
 {
-	if (*s != '\0')
+	int i = 0;
+
+	while (*s != '\0')
 	{
-		_print_rev_recursion(s + 1);
-		_putchar(*s);
+		i++;
+		s++;
 	}
+	
+}
+
+void _set_pointer(char *s)
+{
+	if(*s == '\0')
+	{
+		return;
+	}
+	s++;
+	_set_pointer(s);
 }
