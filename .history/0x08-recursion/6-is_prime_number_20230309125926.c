@@ -5,7 +5,6 @@
 /**
  * recursive_search - recursively tries to find out if n is prime
  * @n: integer value
- * @i: incremental value
  * Return: 1 if n is a prime number, otherwise return 0
 */
 int recursive_search(int i, int n)
@@ -14,7 +13,8 @@ int recursive_search(int i, int n)
 		return (1);
 	if (n % i == 0)
 		return (0);
-	return (recursive_search(i + 1, n));
+	
+	return (recursive_search(i+1, n));
 }
 
 /**

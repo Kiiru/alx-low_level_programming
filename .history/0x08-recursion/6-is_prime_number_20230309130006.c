@@ -14,7 +14,7 @@ int recursive_search(int i, int n)
 		return (1);
 	if (n % i == 0)
 		return (0);
-	return (recursive_search(i + 1, n));
+	return (recursive_search(i+1, n));
 }
 
 /**
