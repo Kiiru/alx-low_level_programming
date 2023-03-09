@@ -7,7 +7,7 @@
  * @start: int value. start of search
  * @end: int value. end of search
  * @m: the square we are searching the root for
- * Return: mid
+ * 
 */
 int square_root_recursion(int start, int end, int m)
 {
