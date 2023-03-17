@@ -3,7 +3,7 @@
 
 /**
  * main - Entry point
- * @argc: size of arguments
+ * @argc:
  * @argv: pointer to array of arguments
  * Return: Always 0 (Success)
 */

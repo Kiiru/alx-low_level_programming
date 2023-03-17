@@ -3,8 +3,8 @@
 
 /**
  * main - Entry point
- * @argc: size of arguments
- * @argv: pointer to array of arguments
+ * @argc:
+ * @argv: pointer to array 
  * Return: Always 0 (Success)
 */
 int main(int argc, char *argv[])
