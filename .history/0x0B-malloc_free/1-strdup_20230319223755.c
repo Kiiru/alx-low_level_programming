@@ -34,5 +34,7 @@ char *_strdup(char *str)
 		j++;
 	}
 
+	c[size] = '\0';
+
 	return (c);
 }

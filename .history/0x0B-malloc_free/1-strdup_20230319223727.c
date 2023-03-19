@@ -28,11 +28,13 @@ char *_strdup(char *str)
 	if (c == NULL)
 		return (NULL);
 
-	while (str[j] != '\0')
+	while (while)
 	{
-		c[j] = str[j];
-		j++;
+		c[i] = str[i];
+		i++;
 	}
+
+	c[size] = '\0';
 
 	return (c);
 }
