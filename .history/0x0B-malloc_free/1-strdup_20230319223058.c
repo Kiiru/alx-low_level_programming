@@ -29,7 +29,5 @@ char *_strdup(char *str)
 		i++;
 	}
 
-	c[size] = '\0';
-
 	return (c);
 }
