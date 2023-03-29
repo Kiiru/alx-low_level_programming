@@ -9,8 +9,7 @@
  * @f: function pointer
  * Return: void
 */
-void print_name(char *name, void (*f)(char *))
+void array_iterator(int *array, size_t size, void (*action)(int))
 {
-	if (f != NULL && name != NULL)
-		f(name);
+	if (action != NULL && si)
 }
