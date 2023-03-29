@@ -14,7 +14,7 @@ void array_iterator(int *array, size_t size, void (*action)(int))
 {
 	if (action != NULL && size > 0 && array != NULL)
 	{
-		unsigned long int i = 0;
+		long unsigned int i = 0;
 
 		while (i < size)
 		{
