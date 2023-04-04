@@ -15,7 +15,7 @@ int charLen(const char *str)
 	i = 0;
 	while (str[i] != '\0')
 		i++;
-
+	
 	return (i);
 }
 
@@ -54,6 +54,6 @@ list_t *add_node(list_t **head, const char *str)
 	new->str = dupS;
 	new->next = *head;
 	*head = new;
-
+	
 	return (new);
 }
