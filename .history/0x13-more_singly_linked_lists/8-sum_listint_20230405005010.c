@@ -1,0 +1,27 @@
+#include "lists.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+/**
+ * sum_listint - Operation to sum elements in a node
+ * @head: list
+ * Return: sum
+*/
+int sum_listint(listint_t *head)
+{
+	int sum;
+
+	sum = 0;
+	if (head == NULL)
+	{
+		return (sum);
+	}
+	while (head->next != NULL)
+	{
+		sum += head->n;
+		head = head->next;
+	}
+
+	return (sum);
+}
