@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * before_main - attribute definition
  * void after_main() __attribute__((destructor));
@@ -7,6 +6,7 @@
  * printf("This is executed after main.");
  * }
 */
+
 void before_main(void) __attribute__((constructor));
 
 /**

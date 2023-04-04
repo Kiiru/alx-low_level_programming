@@ -1,12 +1,5 @@
 #include <stdio.h>
 
-/**
- * before_main - attribute definition
- * void after_main() __attribute__((destructor));
- * void after_main() {
- * printf("This is executed after main.");
- * }
-*/
 void before_main(void) __attribute__((constructor));
 
 /**

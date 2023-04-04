@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * before_main - attribute definition
  * void after_main() __attribute__((destructor));
