@@ -1,0 +1,11 @@
+#include "lists.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+/**
+ * free_list - Operation to free a list list_t
+ * @head: list
+ * Return: void
+*/
+size_t print_listint(const listint_t *h);
