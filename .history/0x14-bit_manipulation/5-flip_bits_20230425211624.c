@@ -2,22 +2,9 @@
 /**
  * flip_bits - Operation that returns the number of bits you would
  * need to flip to get from one number to another
- * @n: int value
- * @m: int value
- * Return: int number of bits
+ * @n
 */
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
-	int i, bits;
-
-	i = 8 * sizeof(n) - 1;
-	bits = 0;
-
-	while (i >= 0)
-	{
-		if (((n ^ m) >> i) & 1)
-			bits++;
-		i--;
-	}
-	return (bits);
+    //
 }
